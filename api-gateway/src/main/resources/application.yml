@@ -1,0 +1,17 @@
+server:
+  port: 3001
+spring:
+  application:
+    name: api-gateway
+zuul:
+  routes:
+    api-a:
+      path: /apiaa/**
+      serviceId: service
+    api-b:
+      path: /apibb/**
+      serviceId: client
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8760/eureka/,http://localhost:8762/eureka/

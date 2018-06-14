@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: dashboard
+server:
+  port: 9000
+management:
+  security:
+    enabled: false
