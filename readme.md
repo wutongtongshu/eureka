@@ -17,4 +17,8 @@
 
 - api-gateway这是使用了zuul转发的API层实现
 
+- config-client这个是以github为配置中心的客户端
+
+- config-server这个是以github为配置中心的服务端
+
   
